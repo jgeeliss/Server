@@ -1,0 +1,4 @@
+*.conf
+*.txt
+*.js
+node_modules/

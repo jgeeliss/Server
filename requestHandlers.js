@@ -21,4 +21,4 @@ function upload(response) {
 }
 
 exports.start = start;
-exports.upload = upload;
+exports.upload = upload
