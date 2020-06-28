@@ -5,9 +5,9 @@ function start(response) {
 	
 	exec("dir", function (error,stdout,stderr)
 		{
-			response.writeHead(200,{"Content-type":"text/plain"});
-			response.write(stdout);
-			response.end();
+			response.writeHead(200,{"Content-type":"text/plain"})
+			response.write(stdout)
+			response.end()
 		}	
 	);
 	}
